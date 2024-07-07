@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="IMG-20240707-WA0002.jpg" type="image/x-icon">
+</head>
+<body>
+</div>
+     
+      <div id="bar">
+        <img id="logo" src="IMG-20240707-WA0002.jpg" >
+<h1> YOURCARS</h1>
+<input type="search">
+<a href="" id="cuenta"> <p id="cuenta">Crea tu cuenta</p></a>
+<a href="" id="ingresa" > <p >Ingresa</p></a>
+<a href="" id="ayuda"> <p id="ayuda">ayuda</p></a>
+<a href="" id="contacto"> <p id="contacto">contacto</p></a>
+<a href="" id="publica"> <p id="publica"> Publica tu vehiculo</p></a>
+      </div>
+      
+<div id="contenedordeimagenes">
+    <div class="slide">
+        <div class="slide-inner">
+            <input class="slide-open" type="radio" id="slide-1" 
+                  name="slide" aria-hidden="true" hidden="" checked="checked">
+            <div class="slide-item">
+               <a href="tumoto.html" target="_blank"> <img src="moto.jpg"> </a> 
+            </div>
+            <input class="slide-open" type="radio" id="slide-2" 
+                  name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <a href="tuavion.html" target="_blank">   <img src="aviones.jpg"> </a>
+            </div>
+            <input class="slide-open" type="radio" id="slide-3" 
+                  name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <a href="tubarco.html" target="_blank"> <img src="sailing-5242101_1280.jpg"> </a>
+            </div>
+            <label for="slide-3" class="slide-control prev control-1">‹</label>
+            <label for="slide-2" class="slide-control next control-1">›</label>
+            <label for="slide-1" class="slide-control prev control-2">‹</label>
+            <label for="slide-3" class="slide-control next control-2">›</label>
+            <label for="slide-2" class="slide-control prev control-3">‹</label>
+            <label for="slide-1" class="slide-control next control-3">›</label>
+            <ol class="slide-indicador">
+                <li>
+                    <label for="slide-1" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-2" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-3" class="slide-circulo">•</label>
+                </li>
+            </ol>
+        </div>
+    </div>
+   <!--
+
+    <img src="seahorse1.jpg">
+    <img src="seahorse1-2.jpg">
+    <img src="seahorse1-3.jpg">
+    <img src="seahorse1-4.jpg">
+    <img src="seahorse1-5.jpg">
+    <img src="seahorse1-6.jpg">
+    <img src="seahorse1-7.jpg">
+    <img src="seahorse1-8.jpg">
+    <img src="seahorse1-9.jpg">
+    <img src="seahorse1-10.jpg">
+    <img src="seahorse1-11.jpg">
+    <img src="seahorse1-12.jpg">
+    <img src="seahorse1-13.jpg">
+    <img src="seahorse1-14.jpg">
+
+
+    -->
+    </div>
+
+<div id="main">
+
+</div>
+<div id="botones">
+
+    <a href="" > <button id="vender">Vender</button></a>
+     <a href="" > </a><button id="diseño" >Diseño de carros</button>
+</div>
+<div id="buscar">
+<form>
+
+
+    <button id="lang">carros y camionetas</button>
+
+
+
+</form>
+<form id="lang2">
+    <select name="Marcas" id="lang2-5" >
+        <option  id="lang3"  value="marcas" >marcas</option>
+        <option  id="lang3"  value="marca1">marca1</option>
+        <option  id="lang3" value="marca2">marca2</option>
+        <option  id="lang3" value="marca3">marca3</option>
+        <option  id="lang3" value="marca4">marca4</option>
+    </select>
+</form>
+<form id="buscar1">
+    <button id="busqueda">Buscar</button>
+</form>
+
+
+
+</div>
+<div id="sugerencias">
+<h1 id="buscado"> LO MAS BUSCADO EN VENEZUELA</h1>
+ <a href=""><img id="car1" src="car-1299198_1280.png"> </a>
+<p id="barato">CARROS BARATOS</p>
+<a href= ""> <img id="car2" src="alfa-1296852_1280.png"></a>
+<p id="antiguo">CARROS ANTIGUOS</p>
+<a href=""> <img id="camioneta" src="car-7395714_1280.png"></a>
+<p id="cuatro"> CAMIONETAS 4X4</p>
+</div>
+
+<div id="publicadoshoy">
+     <h1 > AUTOS Y CAMIONETAS PUBLICADOS HOY</h1> <!--<a href="" id="ver"> Ver mas</a>-->
+     <div id="primero">
+        <a href=""> <img src="vehicle-1405770_1280.jpg" id="toyota">  </a> <h1> US$ 20.000</h1> <p>Toyota</p>
+
+     </div>
+  
+     <div id="segundo">
+        <a href=""> <img src="tesla-5937063_1280.jpg" id="tesla">  </a> <h1> US$ 40.000</h1> <p>Tesla</p>
+
+     </div>
+</div>
+
+</div>
+
+<style>
+    *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+#logo{
+    width: 15vw
+}
+#publicadoshoy{
+    width: 50%;
+    max-width: 2000px;
+    margin: 30px auto ;
+    line-height: 4vw;
+    text-align: center;
+    height: 10%;
+    display: grid;
+    grid-template-columns:  1fr
+   
+    
+}
+#publicadoshoy > h1{
+    font-size: 3.5vw;
+    margin-left: -50%
+}
+#publicadoshoy > #ver{
+    margin-top: -10%;
+    margin-left: 110%;
+    inline-size: auto;
+}
+#toyota{
+    width: 80%;
+    margin-left: -90%;
+    margin-top: 20%;
+}
+
+#primero > h1 {
+    margin-left: -90%;
+    font-size: 5vw
+}
+#primero > p{
+    margin-left: -90%;
+    font-size: 3vw
+}
+#tesla{
+    width: 80%;
+    margin-left: -70%;
+    margin-top: 0%;
+}
+
+#segundo > h1 {
+    margin-left: -90%;
+    font-size: 5vw
+}
+#segundo > p{
+    margin-left: -90%;
+    font-size: 3vw
+}
+
+
+#sugerencias{
+    width: 50%;
+    max-width: 2000px;
+    margin: 30px auto ;
+    line-height: 4vw;
+    text-align: center;
+    height: 10%;
+    display: grid;
+  
+   
+    
+}
+
+#publicado1{
+    background-color: black;
+
+}
+#toyota{
+    width: 60%;
+    
+}
+
+#cuatro{
+    margin-left: 92%;
+    font-size: 3vw
+}
+#camioneta{
+    width: 50%;
+    margin-left: 90%
+}
+#antiguo{
+    margin-left: 20%;
+    font-size: 3vw
+}
+#barato{
+    margin-left: -120%;
+    font-size: 3vw
+}
+#car1{
+    width: 50%;
+    margin-left: -120%
+}
+#buscado{
+    font-size: 4vw;
+    margin-left: -40%
+}
+#buscar{
+    width: 100%;
+    max-width: 2000px;
+    margin: 30px auto ;
+    line-height: 4vw;
+    text-align: center;
+    height: 10%;
+    display: grid;
+    background-color: black ;
+   
+    
+}
+#car2{
+    width: 50%;
+    margin-left: 20%;
+    margin-top: -90%
+}
+#lang{
+    padding: 3vw;
+    font-size: 4vw;
+    margin-left: -50%
+}
+
+#lang2{
+    font-size: 18vw;
+    margin-left: 14%;
+    margin-top: -12vw
+}
+#lang2-5{
+    padding: 3vw;
+    font-size: 4vw;
+    margin-left: 20%;
+
+}
+#lang3{
+    font-size: 4vw;
+}
+#busqueda{
+font-size: 4vw;
+padding: 3vw;
+width: 20%;
+margin-top: -10%
+}
+#buscar1{
+    margin-top: -8vw;
+    margin-left: 38%;
+    padding-left: 5vw;
+    width: 100%
+}
+#botones{
+    width: 100%;
+    max-width: 2000px;
+    margin: auto;
+    line-height: 4vw;
+    text-align: center;
+    height: 10%;
+    display: grid;
+    grid-template-columns: 2fr ;
+    
+
+}
+#vender{
+font-size: 6vw;
+padding: 5vw;
+margin-left: -65%;
+margin-top: 4vw;
+}
+
+#diseño{
+font-size: 6vw;
+padding-left: 0vw;
+margin-left: 40%;
+margin-top: -20vw
+}
+#bar{
+    width: 100%;
+    max-width: 2000px;
+    border: 10px solid black;
+    margin: auto;
+    line-height: 8vw;
+    text-align: center;
+    height: 10%;
+   background-image: url("american-flag-2043285_1280.png")
+    ;
+    background-repeat: no-repeat;
+background-size: cover;
+}
+#bar > h1{
+    margin-left: -60%;
+    font-size: 4vw ;
+    margin-top: -0.5vw
+}
+#bar > input{
+margin-top: -4%;
+width: 20%;
+height: 3vw;
+margin-left: 34%
+}
+
+#bar > #cuenta{
+margin-top: -3%;
+margin-left: 25%
+}
+#bar > #ingresa{
+margin-top: -3.5%;
+margin-left: 35%
+}
+#bar > #ayuda{
+margin-top: -4%;
+margin-left: 50%
+}
+#bar > #contacto{
+margin-top: -4.5%;
+margin-left: 65%
+}
+#bar > #publica{
+margin-top: -5%;
+margin-left: 80%
+}
+#bar{
+display: grid;
+grid-template-rows:  auto ;
+/*grid-template-rows: 9vw 12vw 1fr 3.5% 12%;*/
+grid-template-columns: 1fr ;
+grid-gap: 10px
+}
+.slide {
+                position: relative;
+                box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+                margin-top: 26px;
+            }
+            .slide-inner {
+                position: relative;
+                overflow: hidden;
+                width: 100%;
+                height: calc( auto + 3em);
+            }
+            .slide-open:checked + .slide-item {
+                position: static;
+                opacity: 100;
+            }
+            .slide-item {
+                position: absolute;
+                opacity: 0;
+                -webkit-transition: opacity 0.8s ease-out;
+                transition: opacity 0.8s ease-out;
+                
+            }
+            .slide-item img {
+                display: block;
+                height: auto;
+                max-width:auto;
+                width: 105vw
+            }
+            .slide-control {
+                background: rgba(0, 0, 0, 0.28);
+                border-radius: 50%;
+                color: #fff;
+                cursor: pointer;
+                display: none;
+                font-size: 40px;
+                height: 40px;
+                line-height: 35px;
+                position: absolute;
+                top: 50%;
+                -webkit-transform: translate(0, -50%);
+                cursor: pointer;
+                -ms-transform: translate(0, -50%);
+                transform: translate(0, -50%);
+                text-align: center;
+                width: 40px;
+                z-index: 10;
+            }
+            .slide-control.prev {
+                left: 2%;
+            }
+            .slide-control.next {
+                right: 2%;
+            }
+            .slide-control:hover {
+                background: rgba(0, 0, 0, 0.8);
+                color: #aaaaaa;
+            }
+            #slide-1:checked ~ .control-1,
+            #slide-2:checked ~ .control-2,
+            #slide-3:checked ~ .control-3 {
+                display: block;
+            }
+            .slide-indicador {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                position: absolute;
+                bottom: 2%;
+                left: 0;
+                right: 0;
+                text-align: center;
+                z-index: 10;
+            }
+            .slide-indicador li {
+                display: inline-block;
+                margin: 0 5px;
+            }
+            .slide-circulo {
+                color: #828282;
+                cursor: pointer;
+                display: block;
+                font-size: 35px;
+            }
+            .slide-circulo:hover {
+                color: #aaaaaa;
+            }
+            #slide-1:checked ~ .control-1 ~ .slide-indicador 
+                 li:nth-child(1) .slide-circulo,
+            #slide-2:checked ~ .control-2 ~ .slide-indicador 
+                  li:nth-child(2) .slide-circulo,
+            #slide-3:checked ~ .control-3 ~ .slide-indicador 
+                  li:nth-child(3) .slide-circulo {
+                color: #428bca;
+            }
+            #titulo {
+                width: 100%;
+                position: absolute;
+                padding: 0px;
+                margin: 0px auto;
+                text-align: center;
+                font-size: 27px;
+                color: rgba(255, 255, 255, 1);
+                font-family: 'Open Sans', sans-serif;
+                z-index: 9999;
+                text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), 
+                     -1px 0px 2px rgba(255, 255, 255, 0);
+            }
+
+</style>
+</body>
+</html>
